@@ -1,0 +1,26 @@
+# Site settings
+title: Adam He
+description: 'Personal Page'
+baseurl: ''
+profilepic: '/images/adam.jpg'
+bkimage: '/images/bk1.jpg'
+
+author:
+  name: 'Adam He'
+  
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
